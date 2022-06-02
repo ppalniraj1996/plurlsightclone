@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0864a310c4.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+        <style>
+            #container {
+                width: 100vw;
+                /* height:100vh; */
+                background-color: rgb(13, 15, 18);
+            }
+            #logo2 {
+                height: 50px;
+                width: 200px;
+            }
+            #box11 {
+                display: flex;
+                gap: 40px;
+                width: 100%;
+                margin-left: 10px;
+            }
+            #main {
+                width: 60%;
+                margin-left: 15px;
+
+            }
+            input {
+                height: 35px;
+                width: 230px;
+            }
+            label {
+                color: white;
+                align-items: initial;
+            }
+            h3 {
+                color: white;
+            }
+            #check {
+                height: 25px;
+                margin: 0;
+            }
+            button {
+                height: 40px;
+                width: 130px;
+                background-color: rgb(0, 132, 189);
+                color: white;
+                border: 0;
+                margin: 0 0 10px 20px;
+            }
+            #box12 {
+                width: 100%;
+                /* height:100px; */
+                background-color: rgb(46, 48, 49);
+                /* display: flex; */
+            }
+            #box13 {
+                width: 60%;
+                height: 100px;
+                background-color: rgb(46, 48, 49);
+
+            }
+            #cont {
+                width: 70%;
+                margin: auto;
+                display: flex;
+                gap: 50px;
+            }
+            h4 {
+                color: white;
+            }
+            #main2 {
+                height: 100%;
+
+            }
+            #form {
+                background-color: rgb(46, 48, 49);
+                width: 104%;
+                justify-content: space-around;
+
+            }
+            #payment {
+                display: flex;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <img src="https://www.pluralsight.com/buy/static/assets/ps_logo.png" id="logo2" alt="">
+            <div id="cont">
+                <div id="main">
+
+                    <form id="form">
+                        <h3>
+                            <i class="fa-solid fa-circle-1"></i>Account details</h3><br>
+                        <div id="box11">
+
+                            <div>
+
+                                <label for="fname">First Name</label><br>
+                                <input type="text" id="ip1"><br>
+                                <label for="email">Email</label><br>
+                                <input type="text" id="ip2"><br>
+                                <label for="adr">Country of residence</label><br>
+                                <input type="text" id="ip3"><br>
+
+
+                            </div>
+                            <div>
+                                <label for="fname">Last Name</label><br>
+                                <input type="text" id="ip4"><br>
+                                <label for="email">Confirm Email</label><br>
+                                <input type="text" id="ip5"><br>
+                                <label for="adr">Company Name</label><br>
+                                <input type="text" id="ip6"><br>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <label for="check" style="display:flex;">
+                            <input type="checkbox" id="check"><p style="font-size: small;">By checking here and continuing,I agree to the Pluralsight.. Terms of Use.</p>
+                        </label>
+                        <br>
+                        <button onclick="checking()">Continue</button>
+                    </form>
+
+                    <div id="box12">
+                        <h3>Payments</h3>
+                        <div id="payment">
+                            <div style="gap: 20px;">
+
+                                <label for="fname">Name on Card</label><br>
+                                <input type="text" id="ip1"><br>
+                                <label for="email">CVV</label><br>
+                                <input type="text" id="ip2"><br>
+                                <label for="adr">Postal Code</label><br>
+                                <input type="number" id="ip3"><br><br>
+                                <label for="">Expiry Date</label>
+                                <select>
+                                    <option value="01">January</option>
+                                    <option value="02">February
+                                    </option>
+                                    <option value="03">March</option>
+                                    <option value="04">April</option>
+                                    <option value="05">May</option>
+                                    <option value="06">June</option>
+                                    <option value="07">July</option>
+                                    <option value="08">August</option>
+                                    <option value="09">September</option>
+                                    <option value="10">October</option>
+                                    <option value="11">November</option>
+                                    <option value="12">December</option>
+                                </select>
+                                <select>
+                                    <option value="16">
+                                        2016</option>
+                                    <option value="17">
+                                        2017</option>
+                                    <option value="18">
+                                        2018</option>
+                                    <option value="19">
+                                        2019</option>
+                                    <option value="20">
+                                        2020</option>
+                                    <option value="21">
+                                        2021</option>
+                                </select>
+
+                            </div>
+                            <div style="margin-left: 20px;">
+                                <label for="fname">Card Number</label><br>
+                                <input type="number" id="ip4"><br>
+                                <label for="email">Country</label><br>
+                                <input type="text" id="ip5"><br>
+                                <label for="adr">City</label><br>
+                                <input type="text" id="ip6"><br>
+                            </div>
+                        </div>
+                        <hr>
+                        <button onclick="alert('Reviwed')">Review Order</button>
+
+                    </div>
+                    <div id="box13">
+                        <h3>Review and Confirm</h3><br>
+                        <button onclick="window.location.href='../homepage/index.html'">Confirm</button>
+                    </div>
+                </div>
+                <div id="main2">
+                    <div style=" background-color: rgb(46, 48, 49);justify-content: space-around;margin-left: 20px;width: 110%;">
+                        <h3>Order summary</h3><br>
+                        <h4 style="display: flex;justify-content: space-around;">PLAN
+                            <p>PRICE</p>
+                        </h4>
+                        <h4 style="display: flex;justify-content: space-around;">Individual Standard Free Trial
+                            <p>Free</p>
+                        </h4>
+                        <h4 style="display: flex;justify-content: space-around;">subtotal
+                            <p>₹0</p>
+                        </h4>
+                        <h4 style="display: flex;justify-content: space-around;">Estimated Tax
+                            <p>₹0</p>
+                        </h4>
+                        <hr>
+                        <h4 style="display: flex;justify-content: space-around;">Total due today
+                            <p>₹0</p>
+                        </h4>
+                    </div>
+                    <div>
+                        <p style="font-size: xx-small;color: white;">✝ Pluralsight is required by law to collect transaction taxes such as sales tax, VAT, GST or other similar taxes on purchases in some jurisdictions. The actual tax amount will be calculated based on the applicable jurisdictional tax rates when your order is processed.
+                                                    ✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other similar taxes</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
+<script>
+    document.querySelector("#payment").style.display="flex";
+    function checking() {
+        let a = document.getElementById("ip1").value;
+        let b = document.getElementById("ip2").value;
+        let c = document.getElementById("ip3").value;
+        let d = document.getElementById("ip4").value;
+        let e = document.getElementById("ip5").value;
+        let f = document.getElementById("ip6").value;
+        if (a == "" || b == "" || c == "" || d == "" || e == "" || f == "") {
+            alert("fill all details")
+        } else {
+            alert("success");
+            document.querySelector("#payment").style.display="flex";
+
+        }
+    }
+</script>
