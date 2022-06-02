@@ -6,13 +6,6 @@ Pluralsight is an online learning and workforce development platform that helps 
 
 ---
 
-### Team Members
-
-- **[Khageshwar Ojha](https://github.com/khageswar9)**
-- **[Abhijeet Chaudhari](https://github.com/Abhi-lab2)**
-- **[Viraj Gupta](https://github.com/rkvirajgupta/)**
-- **[Vikash](https://github.com/VikashBhurji)**
-
 ---
 
 ---
