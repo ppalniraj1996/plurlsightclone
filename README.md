@@ -51,14 +51,8 @@ Pluralsight is an online learning and workforce development platform that helps 
 
 ---
 
-### About Project
 
-> We did this project within 4 days in our unit-4 construct week. We worked on backend parts with includes various types of libraries into it and we have also added database for our project so user and course details will be saved and can be used accordingly. We have also add some cool functionality in our courses page where you can filter the courses according to your choice and user can Signup and Login to buy the courses.
 
----
-
-### Medium Link
-https://medium.com/@rkvirajgupta/cloning-of-a-website-pluralsight-a6116af1f108
 
 
 
